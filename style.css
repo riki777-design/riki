@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+    /* background-color: rgb(104, 120, 138); */
+    background-image: url(images/木｜おじい.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position:50% 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+        }
+
+header{
+        margin : 50px ;
+        padding : 30px ;
+        border : 5px solid rgba(0, 0, 0, 0.283) ;
+        background-color : rgba(0, 0, 0, 0.229) ;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    line-height: 6.5;
+}
+
+.mark{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    background:linear-gradient(transparent 70%, rgba(236, 194, 97, 0.627) 70%);
+}
+
+p{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    /* font-weight:bold; */
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+div.ミント p {
+    margin: 5em 0px;
+ }
+
+ .リスト {
+     list-style:none;
+    }
+    .リスト li {
+    color: ghostwhite;
+    line-height: 2;
+    }
+    .リスト li:before {
+     /* content: '・'; */
+     color: ghostwhite;
+    }
+
+
+
+    ul {
+        box-shadow :0px 0px 3px silver;
+        padding: 0.5em 1em 0.5em 2.3em;
+        position: relative;
+        
+      }
+      
+      ul li {
+        line-height: 1.5;
+        padding: 0.5em 0;
+        /* list-style-type: none!important; */
+      }
+      
